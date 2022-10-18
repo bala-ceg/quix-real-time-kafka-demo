@@ -1,0 +1,14 @@
+{
+  "Variables": [
+    {
+      "Name": "output",
+      "Type": "EnvironmentVariable",
+      "InputType": "OutputTopic",
+      "Description": "This is the output topic for dummy timeseries data",
+      "DefaultValue": "covid19-data",
+      "Required": true
+    }
+  ],
+  "EntryPoint": "build/dockerfile",
+  "RunEntryPoint": "main.py"
+}
