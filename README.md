@@ -1,1 +1,3 @@
-# Quix_Example
+# quix-real-time-kafka-demo
+
+
